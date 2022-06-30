@@ -1,0 +1,255 @@
+/*This is ppAdmin style sheet for admin panel*/
+* {
+   margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headers1
+{
+    width:25%;
+    float:left;
+    
+}
+.headers2
+{
+    width:43%;
+    float:left;
+    padding:10px;
+}
+
+.headers3
+{
+    width:32%;
+    float:left;
+   
+    text-align:right;
+}
+/* Style the top navigation bar */
+
+
+
+.navbar {
+  overflow: hidden;
+   background-color:#F8F8FF;
+  width:100%;
+   position: static;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color:#F8F8FF;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index:1000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*******************************************************************************/
+
+.loginpage
+{
+      background-color:#1E90FF;
+      width:100%;
+      overflow:auto;
+      height:659px;
+      padding:15px;
+
+}
+
+.logins
+{
+    background-color:#FFFAFA;
+      position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* for IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* for Safari */
+  border:1px solid black;
+    width: 500px;
+  height: 400px;
+  padding:15px;
+}
+
+/*****************Category name*********************************/
+.category1
+{
+    width:100%;
+    padding:5px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category2
+{
+    width:100%;
+     padding:5px;
+     float:left;
+}
+
+.subcategory1
+{
+    width:45%;
+    padding:10px;
+   float:left;
+}
+.subcategory2
+{
+    width:55%;
+     padding:15px;
+     float:left;
+}
+
+/*****************Add Product details*********************************/
+
+
+/***********************mail1********************/
+
+
+.mail1
+{
+    width:100%;
+    float:left;
+    padding:20px;
+
+}
+.mail2
+{
+    width:100%;
+    float:left;
+    padding:10px;
+}
+
+/***********************Monthly Order********************/
+
+
+.month1
+{
+    width:100%;
+    float:left;
+    padding:20px;
+
+}
+.month2
+{
+    width:100%;
+    float:left;
+    padding:10px;
+}
+
+/***********************Date Order********************/
+
+
+.date1
+{
+    width:100%;
+    float:left;
+    padding:20px;
+
+}
+.date2
+{
+    width:100%;
+    float:left;
+    padding:10px;
+}
+
+/***********************Year Order********************/
+
+
+.year1
+{
+    width:100%;
+    float:left;
+    padding:20px;
+
+}
+.year2
+{
+    width:100%;
+    float:left;
+    padding:10px;
+}
+
+
+/***********************product data Order********************/
+
+
+.pd1
+{
+    width:50%;
+    float:left;
+    padding:20px;
+
+}
+.pd2
+{
+    width:50%;
+    float:left;
+    padding:10px;
+    text-align:right;
+}
+.pd3
+{
+    width:100%;
+    float:left;
+    padding:10px;
+}

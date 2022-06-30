@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topheader {
+  background-color:white;
+  float:left;
+  width:100%;
+}
+
+/*Mobile*/
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .topheader {
+    width:100%;
+    overflow:auto;
+  }
+}
+
+
+.topheader1 {
+  float:left;
+  width:30%;
+  padding:10px;
+}
+
+.topimg
+{
+  width: 100%;
+  height: 100px;
+  background-image: url(../image/homepage/logo.jpg);
+  background-size: 100% 100%;
+
+}
+
+/*Mobile*/
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .topimg {
+    width:200px;
+    height:60px;
+  }
+}
+
+
+
+
+.topheader2 {
+  float:left;
+  width:40%;
+  padding:25px; 
+  
+}
+.topheader3 {
+  float:left;
+  width:30%;
+  padding:30px;
+  text-align:center;
+  
+}
+
+/*mobile*/
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .topheader1 {
+    width:50%;
+    float:left;
+  }
+}
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .topheader2 {
+    width:50%;
+    float:left;
+    padding:none;
+  }
+}
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .topheader3 {
+    width:100%;
+    padding:0px;
+    font-size:10px;
+  
+
+  }
+}
+
+
+/* Search botton
+***********************************************************************/
+* .sev {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+     background-image: url('../image/download%20(1).png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+     width:80%;
+}
+
+
+
+.sev:focus {
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .sev {
+    width:100%;
+  }
+}
+
+
+
+
+/**************** product store *****************/
+
+.centera:hover {
+  background-color: #F8F8FF;
+
+}
+
+.navbar1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar1 a {
+ color:black; 
+	margin-top:8PX;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size:20px;
+	text-decoration: none;
+}
+
+
+.navbar1 > .round1
+{
+	padding: 0 8px;
+}
+
+.round1 {
+  float:left;
+  width:20%;
+  padding:15%;
+  text-align:center;
+}
+
+.circular--landscape {
+display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 120px;
+  margin-top:4px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.circular--landscape img {
+   width: 100%;
+  height: 100%;
+  
+}
+
+
+
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .round1{
+    width:20%;
+    font-size:5px;
+}
+  .circular--landscape {
+display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.circular--landscape img {
+   width: 100%;
+  height: 70px;
+}
+  
+}
+
+
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  .round1{
+    width:20%;
+    font-size:5px;
+  }
+  
+    .circular--landscape {
+display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.circular--landscape img {
+   width: 100%;
+  height: 80px;
+}
+}
+
+
+/********************Deal of the day*******************************/
+
+.container2 { 
+  height: 400px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float:left;
+  width:49%;
+  margin-right :5px;
+    background-image: url('../image/homepage/slide.png');
+     background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container3 { 
+  height: 400px;
+  position: relative;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float:left;
+  width:49%;
+  margin-right :5px;
+    background-image: url('../image/homepage/side1.jpg');
+     background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+   .container2 {
+    width:100%;
+    height:200px;
+  }
+  .container3 {
+    width:100%;
+    height:200px;
+  }
+  }
+
+
+/*********************My Account*********************************/
+
+.ac1 {
+  float:left;
+  width:25%;
+  padding:10px;
+}
+.ac2 {
+  float:left;
+  width:75%;
+    padding:5px;
+
+}
+
+
+
+/**************Tracking************/
+.track
+{
+	overflow:auto;
+	width:100%;
+	padding:10px;
+	
+}
+.track1
+{
+    width:45%;
+    float:left;
+    background-image: url(../image/How-GPS-Tracking-Can-Benefit-Delivery-Services.jpg);
+  background-size: 100% 100%;
+    height:300px;
+    
+}
+.track2
+{
+    width:55%;
+      padding:5px;
+      float:left;
+}
+
+/*Mobile*/
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .track1 {
+    width:100%;
+    height:200px;
+    display:none;
+  }
+   .track2 {
+    width:100%;
+    font-size:10px;
+  }
+}
+
+/*Mobile*/
+@media only screen and (max-width:900px) {
+  /* For mobile phones: */
+  .track1 {
+    width:100%;
+    height:200px;
+  }
+   .track2 {
+    width:100%;
+    font-size:12px;
+  }
+}
+
+/********Toast msg**************/
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title11 {
+  color: grey;
+  font-size: 18px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.footer
+{
+	color:white;
+	width:100%;
+	background-color:#2F4F4F;
+	text-align:center;
+	padding:10px;
+}

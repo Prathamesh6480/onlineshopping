@@ -1,0 +1,1 @@
+<div style="background-color:#2F4F4F;width:100%;padding:5px;overflow:auto;color:white;font-size:20px;margin-top: auto;bottom:0;text-align:center;font-size: 1em;">&#169; copyright 2021 oneindia online shopping All Right Reserved by || Developer : prathamesh pisal</div>

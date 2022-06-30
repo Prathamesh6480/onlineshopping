@@ -1,0 +1,21 @@
+table {
+	background-color: FloralWhite;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th.top {
+	background-color: Wheat;
+	border-bottom: 2px solid black;
+}
+
+th.bottom {
+	background-color: Wheat;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+th, td {
+	padding-left: 7px;
+}

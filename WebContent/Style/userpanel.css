@@ -1,0 +1,116 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: auto;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+
+       .inp{
+width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+         .bt {
+  width: 100%;
+  background-color:tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.address1
+{
+ width:50%; 
+ padding:5px;
+ float:left;
+}
+
+.address2
+{
+	  width:50%; 
+ padding:5px;
+ float:left;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size:11px;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  
+  .address1
+{
+ width:50%; 
+ padding:5px;
+ float:left;
+}
+
+.address2
+{
+	  width:50%; 
+ padding:5px;
+ float:left;
+}
+}
+
+@media screen and (max-width: 600px) {
+.sidebar
+{
+  width: 100%;
+    height: auto;
+    font-size:12px;
+    position: relative;
+}
+  
+   .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  
+  .address1
+{
+ width:100%; 
+ padding:5px;
+}
+
+.address2
+{
+	  width:100%; 
+ padding:5px;
+}
+}
